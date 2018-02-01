@@ -1,0 +1,257 @@
+
+#M_dtl_bc {
+  background: url(../img/logo2.png) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  -webkit-filter: blur(14px);
+  -moz-filter: blur(14px);
+  -ms-filter: blur(14px);
+  filter: blur(10px);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+#M_dtl_box {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  border: 1px solid #000000;
+  padding-top: 20px;
+  padding-left: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#M_dtl_head {
+  width: 100%;
+  height: 248px;
+}
+#M_dtl_head_left {
+  width: 260px;
+  height: 248px;
+  float: left;
+  position: relative;
+}
+#M_dtl_head_left img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#M_dtl_head_left_1 {
+  width: 228px;
+  height: 220px;
+  border: 4px solid #ac9a6c;
+  margin-left: 22px;
+  margin-top: 22px;
+}
+#M_dtl_head_left_1 img{
+  width: 235px;
+  height: 225px;
+}
+#M_dtl_head_right {
+  width: 500px;
+  height: 238px;
+  float: left;
+  padding-left: 76px;
+  padding-top: 10px;
+}
+#ifra h2 {
+  font-size: 34px;
+  line-height: 50px;
+}
+#ifra h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+.M_dtl_ul {
+  width: 600px;
+  height: 80px;
+  padding-top: 5px;
+}
+.M_dtl_ul li {
+  font-size: 16px;
+  line-height: 25px;
+}
+#M_dtl_footer {
+  line-height: 40px;
+}
+.M_dtl_bf {
+  width: 114px;
+  height: 40px;
+  border: 1px solid #ac996f;
+  border-radius: 7px;
+  float: left;
+  margin-top: 15px;
+  padding-left: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 2;
+}
+.M_dtl_bf:hover {
+  cursor: pointer;
+}
+.M_dtl_bf img {
+  vertical-align: top;
+  margin-top: 8px;
+}
+.M_dtl_fen {
+  width: 114px;
+  height: 40px;
+  border: 1px solid #ac996f;
+  border-radius: 7px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 42px;
+  padding-left: 14px;
+  cursor: pointer;
+  display: none;
+}
+.M_dtl_fen img {
+  vertical-align: top;
+  margin-top: 8px;
+}
+.M_dtl_fen:hover {
+  cursor: pointer;
+}
+.M_dtl_fen span {
+  vertical-align: top;
+  margin-left: -18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+#M_dtl_section {
+  z-index: 0;
+}
+.M_dtl_nav {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: bold;
+  pointer-events: none;
+}
+.M_dtl_tion_ul {
+  width: 70%;
+  line-height: 48px;
+  float: left;
+}
+#M_dtl_brief {
+  width: 30%;
+  height: 500px;
+  float: left;
+}
+#M_dtl_text {
+  width: 244px;
+  height: 92px;
+  line-height: 20px;
+  padding-top: 5px;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.M_dtl_imgs {
+  margin-left: 30px;
+  font-size: 0;
+}
+.M_dtl_imgs img:nth-child(1) {
+  margin-right: 30px;
+}
+.M_dtl_tion_ul li {
+  height: 48px;
+  font-size: 14px;
+  position: relative;
+}
+.M_dtl_icon {
+  width: 200px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+.M_dtl_tion_ul li:hover {
+  background-color:rgba(198,198,198,0.2);
+  color:#ad986d;
+  cursor: pointer;
+}
+.M_dtl_num {
+  text-indent: 10px;
+  width: 4%;
+  height: 48px;
+  float: left;
+}
+.M_dtl_the {
+  width: 48%;
+  height: 48px;
+  float: left;
+}
+.M_dtl_name {
+  width: 18%;
+  height: 48px;
+  float: left;
+}
+.M_dtl_Album {
+  width: 23%;
+  height: 48px;
+  float: left;
+}
+.M_dtl_often {
+  width: 7%;
+  height: 48px;
+  float: left;
+}
+.M_dtl_jj {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: bold;
+}
+#ifra i {
+  float: right;
+  margin-top: 18px;
+  margin-right: 200px;
+  display: none;
+}
+#M_dtl_scrollBody {
+  width: 30px;
+  position: absolute;
+  right: 0;
+}
+#M_dtl_scrollBlock {
+  position: absolute;
+  width: 10px;
+  background: #cccaca;
+  border-radius: 8px;
+  right: 0;
+  z-index: 2;
+}
+.M_dtl_tcc {
+  width: 530px;
+  height: 325px;
+  border: 1px solid #0B0B0B;
+  border-radius: 10px;
+  background: #0000FF;
+  position: absolute;
+  z-index: 3;
+  background: url(../img/tcc.png) no-repeat;
+  background-size: 100%;
+  left: 750px;
+  top: 260px;
+  display: none;
+}
+.M_dtl_pup {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #eae7e7;
+  opacity: 0;
+  left: 500px;
+}
+.M_dtl_pup:hover {
+  cursor: pointer;
+}
